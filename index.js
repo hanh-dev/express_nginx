@@ -9,7 +9,7 @@ app.get("/", () => {
 
 app.get("/health", (req, res) => {
   console.log("API is supper power!!");
-  res.send("TEST HEALTH")
+  res.send("Hello new api!!");
 });
 
 app.listen(3000, () => {
